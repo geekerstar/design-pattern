@@ -6,11 +6,13 @@ package com.geekerstar.design.pattern.creational.singleton;
  * description:
  */
 public class T implements Runnable {
-    @Override
+
     public void run() {
 //        LazySingleton lazySingleton = LazySingleton.getInstance();
 //        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
-        StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();
+//        StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();
+        ContainerSingleton.putInstance("object",new Object());
+        Object instance = ContainerSingleton.getInstance("object");
         System.out.println(Thread.currentThread().getName()+" "+instance);
 
     }
