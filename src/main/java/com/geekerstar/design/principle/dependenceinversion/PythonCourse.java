@@ -6,6 +6,7 @@ package com.geekerstar.design.principle.dependenceinversion;
  * description
  */
 public class PythonCourse implements ICourse {
+    @Override
     public void studyCourse() {
         System.out.println("geeker在学Python");
 

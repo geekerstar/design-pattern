@@ -9,5 +9,6 @@ public abstract class DBConnection {
 //    public String getConnection(){
 //        return "Mysql数据连接";
 //    }
+
     public abstract String getConnection();
 }

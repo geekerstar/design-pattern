@@ -6,10 +6,12 @@ package com.geekerstar.design.principle.interfacesegregation;
  * description:
  */
 public class Dog implements ISwimAnimalAction,IEatAnimalAction {
+    @Override
     public void eat() {
 
     }
 
+    @Override
     public void swim() {
 
     }

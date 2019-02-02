@@ -20,6 +20,7 @@ public class Test {
 //        rectangle.setLength(20);
 //        resize(rectangle);
 //    }
+
     public static void main(String[] args) {
         Square square = new Square();
 //        square.setLength(10);

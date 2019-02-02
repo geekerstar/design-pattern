@@ -6,6 +6,15 @@ package com.geekerstar.design.principle.liskovsubstitution;
  * description:
  */
 public interface Quadrangle {
+    /**
+     * 获取宽度
+     * @return
+     */
     long getWidth();
+
+    /**
+     * 获取长度
+     * @return
+     */
     long getLength();
 }

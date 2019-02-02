@@ -25,10 +25,12 @@ public class Rectangle implements Quadrangle{
 //        this.width = width;
 //    }
 
+    @Override
     public long getWidth() {
         return width;
     }
 
+    @Override
     public long getLength() {
         return length;
     }
